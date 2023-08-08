@@ -1,9 +1,9 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { useDispatch , useSelector } from 'react-redux';
 import { decrementBonus, incrementBonus } from '../slices/bonusSlice';
 
 function Bonus() {
-  const [points, setPoints] = useState({ value: 0 });
+  // const [points, setPoints] = useState({ value: 0 });
 
   const dispatch = useDispatch()
   
